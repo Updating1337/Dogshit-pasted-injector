@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{dc4c2cfb-5702-410f-959a-b5026c1b8b09}</ProjectGuid>
+    <RootNamespace>ImLoader</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Release\</OutDir>
+    <IntDir>$(SolutionDir)Release\OBJs\</IntDir>
+    <IncludePath>$(SolutionDir)$(ProjectName)\Thirdparty\Microsoft DirectX SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)$(ProjectName)\Thirdparty\Microsoft DirectX SDK\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Release\</OutDir>
+    <IntDir>$(SolutionDir)Release\OBJs\</IntDir>
+    <IncludePath>$(SolutionDir)$(ProjectName)\Thirdparty\Microsoft DirectX SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)$(ProjectName)\Thirdparty\Microsoft DirectX SDK\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Release\</OutDir>
+    <IntDir>$(SolutionDir)Release\OBJs\</IntDir>
+    <IncludePath>$(SolutionDir)$(ProjectName)\Thirdparty\Microsoft DirectX SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)$(ProjectName)\Thirdparty\Microsoft DirectX SDK\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Release\</OutDir>
+    <IntDir>$(SolutionDir)Release\OBJs\</IntDir>
+    <IncludePath>C:\Users\1\Documents\GitHub\Multi-Loader-KO\Multi-Loader-KO-master\ImLoader\Thirdparty\Microsoft DirectX SDK\Include;C:\Users\1\Documents\GitHub\Multi-Loader-KO\Multi-Loader-KO-master\ImLoader\ThemidaSDK\Include;C:\Users\1\Documents\GitHub\Multi-Loader-KO\Multi-Loader-KO-master\ImLoader\protection;C:\Users\1\Documents\GitHub\Multi-Loader-KO\Multi-Loader-KO-master\ImLoader\auth;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)$(ProjectName)\Thirdparty\Microsoft DirectX SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;C:\Users\1\Documents\GitHub\Multi-Loader-KO\Multi-Loader-KO-master\ImLoader\ThemidaSDK\Lib;C:\Users\1\Documents\GitHub\Multi-Loader-KO\Multi-Loader-KO-master\ImLoader\auth;$(SolutionDir)$(ProjectName)\Thirdparty\Microsoft DirectX SDK\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;JM_XORSTR_DISABLE_AVX_INTRINSICS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX.cpp" />
+    <ClCompile Include="Gui.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp" />
+    <ClCompile Include="Thirdparty\Dear ImGui\addons\imgui_addons.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\backends\imgui_impl_dx11.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\backends\imgui_impl_win32.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_demo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_tables.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_widgets.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auth\auth.hpp" />
+    <ClInclude Include="auth\json.hpp" />
+    <ClInclude Include="DirectX.h" />
+    <ClInclude Include="DllBytes.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="Gui.h" />
+    <ClInclude Include="pasted&amp;Detected.h" />
+    <ClInclude Include="protection\antiDbg.h" />
+    <ClInclude Include="protection\anti_vm.h" />
+    <ClInclude Include="protection\bad_process.h" />
+    <ClInclude Include="protection\lazy.h" />
+    <ClInclude Include="protection\skStr.h" />
+    <ClInclude Include="protection\xorstr.h" />
+    <ClInclude Include="Resources\Fonts\IconsFontAwesome6.h" />
+    <ClInclude Include="Resources\Fonts\IconsFontAwesome6Brands.h" />
+    <ClInclude Include="Resources\Fonts\MuseoSansCyrl500.h" />
+    <ClInclude Include="Resources\Textures\AmongUs.h" />
+    <ClInclude Include="Resources\Textures\Avatar.h" />
+    <ClInclude Include="Resources\Textures\Banner.h" />
+    <ClInclude Include="Resources\Textures\Character.h" />
+    <ClInclude Include="Resources\Textures\CS2.h" />
+    <ClInclude Include="Resources\Textures\CSGO.h" />
+    <ClInclude Include="Resources\Textures\Dayz.h" />
+    <ClInclude Include="Resources\Textures\Minecraft.h" />
+    <ClInclude Include="Resources\Textures\Rush.h" />
+    <ClInclude Include="Resources\Textures\Spoofer.h" />
+    <ClInclude Include="Resources\Textures\Valorant.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Textures.h" />
+    <ClInclude Include="ThemidaSDK\Include\C\SecureEngineCustomVMs.h" />
+    <ClInclude Include="ThemidaSDK\Include\C\SecureEngineCustomVMs_BorlandC_inline.h" />
+    <ClInclude Include="ThemidaSDK\Include\C\SecureEngineCustomVMs_GNU_inline.h" />
+    <ClInclude Include="ThemidaSDK\Include\C\SecureEngineCustomVMs_ICL_inline.h" />
+    <ClInclude Include="ThemidaSDK\Include\C\SecureEngineCustomVMs_LCC_inline.h" />
+    <ClInclude Include="ThemidaSDK\Include\C\SecureEngineCustomVMs_VC_inline.h" />
+    <ClInclude Include="ThemidaSDK\Include\C\ThemidaSDK.h" />
+    <ClInclude Include="ThemidaSDK\Include\C\Via ASM module\SecureEngineCustomVMsMacros.h" />
+    <ClInclude Include="ThemidaSDK\Include\C\Via ASM module\SecureEngineMacros.h" />
+    <ClInclude Include="Thirdparty\Dear ImGui\addons\imgui_addons.h" />
+    <ClInclude Include="Thirdparty\Dear ImGui\backends\imgui_impl_dx11.h" />
+    <ClInclude Include="Thirdparty\Dear ImGui\backends\imgui_impl_win32.h" />
+    <ClInclude Include="Thirdparty\Dear ImGui\imconfig.h" />
+    <ClInclude Include="Thirdparty\Dear ImGui\imgui.h" />
+    <ClInclude Include="Thirdparty\Dear ImGui\imgui_internal.h" />
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_image.h" />
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_rectpack.h" />
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_textedit.h" />
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_truetype.h" />
+    <ClInclude Include="utils\lazy.hpp" />
+    <ClInclude Include="utils\skCrypt.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="auth\libcurl.lib" />
+    <Library Include="auth\library_x64.lib" />
+    <Library Include="ThemidaSDK\Lib\COFF\SecureEngineSDK64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ThemidaSDK\Include\Assembly\SecureEngineCustomVMs_fasm32.inc" />
+    <None Include="ThemidaSDK\Include\Assembly\SecureEngineCustomVMs_fasm64.inc" />
+    <None Include="ThemidaSDK\Include\Assembly\SecureEngineCustomVMs_masm32.inc" />
+    <None Include="ThemidaSDK\Include\Assembly\SecureEngineCustomVMs_masm64.inc" />
+    <None Include="ThemidaSDK\Include\Assembly\ThemidaSDK_masm.inc" />
+    <None Include="ThemidaSDK\Include\C\Via ASM module\SecureEngineCustomVmMacros.inc" />
+    <None Include="ThemidaSDK\Include\C\Via ASM module\SecureEngineMacros.asm" />
+    <None Include="ThemidaSDK\Include\Delphi\CheckCodeIntegrity_Epilog.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\CheckCodeIntegrity_Prolog.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\CheckProtection_Epilog.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\CheckProtection_Prolog.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\CheckVirtualPC_Epilog.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\CheckVirtualPC_Prolog.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\Clear_End.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\Clear_Start.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\CodeReplace_End.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\CodeReplace_Start.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\Encode_End.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\Encode_Start.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\Mutate_End.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\Mutate_Start.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\Registered_End.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\Registered_Start.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\StrEncryptW_End.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\StrEncryptW_Start.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\StrEncrypt_End.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\StrEncrypt_Start.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\Unprotected_End.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\Unprotected_Start.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_DOLPHIN_BLACK_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_DOLPHIN_BLACK_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_DOLPHIN_RED_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_DOLPHIN_RED_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_DOLPHIN_WHITE_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_DOLPHIN_WHITE_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_EAGLE_BLACK_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_EAGLE_BLACK_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_EAGLE_RED_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_EAGLE_RED_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_EAGLE_WHITE_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_EAGLE_WHITE_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_End.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_FISH_BLACK_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_FISH_BLACK_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_FISH_RED_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_FISH_RED_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_FISH_WHITE_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_FISH_WHITE_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_MUTATE_ONLY_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_MUTATE_ONLY_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_PUMA_BLACK_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_PUMA_BLACK_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_PUMA_RED_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_PUMA_RED_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_PUMA_WHITE_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_PUMA_WHITE_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_SHARK_BLACK_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_SHARK_BLACK_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_SHARK_RED_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_SHARK_RED_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_SHARK_WHITE_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_SHARK_WHITE_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_Start.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_Start_WithLevel.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_TIGER_BLACK_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_TIGER_BLACK_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_TIGER_RED_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_TIGER_RED_START.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_TIGER_WHITE_END.inc" />
+    <None Include="ThemidaSDK\Include\Delphi\VM_TIGER_WHITE_START.inc" />
+    <None Include="ThemidaSDK\Include\PowerBasic\SecureEngineCustomVMs32.inc" />
+    <None Include="ThemidaSDK\Include\PowerBasic\SecureEngineCustomVMs64.inc" />
+    <None Include="ThemidaSDK\Include\PowerBasic\ThemidaSDK.inc" />
+    <None Include="ThemidaSDK\SecureEngineSDK64.dll" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

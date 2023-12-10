@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0140b128-c031-48d9-892d-08623d59db6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thirdparty">
+      <UniqueIdentifier>{d146da03-2794-4749-a5fa-41c88ed603ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thirdparty\Dear ImGui">
+      <UniqueIdentifier>{8f2dd482-b789-432b-b00a-d19b25742c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thirdparty\Dear ImGui\backends">
+      <UniqueIdentifier>{b66a1310-887d-4c24-b36c-09a2ed8946bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources">
+      <UniqueIdentifier>{51b1c731-4062-4098-8dde-fe2babab311d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\Textures">
+      <UniqueIdentifier>{1f2bb803-74d3-4c14-ba6d-6acaafc1321c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\Fonts">
+      <UniqueIdentifier>{a6895ac9-ae0e-4700-9630-f9186e110e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thirdparty\Dear ImGui\addons">
+      <UniqueIdentifier>{55cf32a4-9cf0-4531-bcb5-c90ef4e0a79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zion sucks cock">
+      <UniqueIdentifier>{13a5fed8-288d-4442-aa2b-ef514b2418e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\porntection">
+      <UniqueIdentifier>{aa9dce14-a40a-4221-8787-ad1c221465b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DA BYPASS">
+      <UniqueIdentifier>{4c4ab499-e646-4c46-ba76-8972df648c37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\backends\imgui_impl_dx11.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_demo.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_draw.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_tables.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\addons\imgui_addons.cpp">
+      <Filter>Source Files\Thirdparty\Dear ImGui\addons</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\backends\imgui_impl_dx11.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\backends\imgui_impl_win32.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imconfig.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imgui.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imgui_internal.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_image.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_rectpack.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_textedit.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_truetype.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Fonts\IconsFontAwesome6.h">
+      <Filter>Source Files\Resources\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Fonts\IconsFontAwesome6Brands.h">
+      <Filter>Source Files\Resources\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Fonts\MuseoSansCyrl500.h">
+      <Filter>Source Files\Resources\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Textures\AmongUs.h">
+      <Filter>Source Files\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Textures\Avatar.h">
+      <Filter>Source Files\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Textures\Banner.h">
+      <Filter>Source Files\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Textures\Character.h">
+      <Filter>Source Files\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Textures\CS2.h">
+      <Filter>Source Files\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Textures\CSGO.h">
+      <Filter>Source Files\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Textures\Minecraft.h">
+      <Filter>Source Files\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Textures\Rush.h">
+      <Filter>Source Files\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Textures\Valorant.h">
+      <Filter>Source Files\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\addons\imgui_addons.h">
+      <Filter>Source Files\Thirdparty\Dear ImGui\addons</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\auth.hpp" />
+    <ClInclude Include="Resources\Textures\Dayz.h">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\json.hpp">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\lazy.hpp">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemidaSDK\Include\C\SecureEngineCustomVMs.h">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemidaSDK\Include\C\SecureEngineCustomVMs_BorlandC_inline.h">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemidaSDK\Include\C\SecureEngineCustomVMs_GNU_inline.h">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemidaSDK\Include\C\SecureEngineCustomVMs_ICL_inline.h">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemidaSDK\Include\C\SecureEngineCustomVMs_LCC_inline.h">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemidaSDK\Include\C\SecureEngineCustomVMs_VC_inline.h">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemidaSDK\Include\C\Via ASM module\SecureEngineCustomVMsMacros.h">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemidaSDK\Include\C\Via ASM module\SecureEngineMacros.h">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\skCrypt.h">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Textures\Spoofer.h">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemidaSDK\Include\C\ThemidaSDK.h">
+      <Filter>zion sucks cock</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\anti_vm.h">
+      <Filter>Source Files\porntection</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\antiDbg.h">
+      <Filter>Source Files\porntection</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\bad_process.h">
+      <Filter>Source Files\porntection</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\lazy.h">
+      <Filter>Source Files\porntection</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\skStr.h">
+      <Filter>Source Files\porntection</Filter>
+    </ClInclude>
+    <ClInclude Include="pasted&amp;Detected.h">
+      <Filter>DA BYPASS</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\xorstr.h">
+      <Filter>Source Files\porntection</Filter>
+    </ClInclude>
+    <ClInclude Include="DllBytes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="auth\libcurl.lib">
+      <Filter>zion sucks cock</Filter>
+    </Library>
+    <Library Include="auth\library_x64.lib">
+      <Filter>zion sucks cock</Filter>
+    </Library>
+    <Library Include="ThemidaSDK\Lib\COFF\SecureEngineSDK64.lib">
+      <Filter>zion sucks cock</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ThemidaSDK\Include\Delphi\VM_TIGER_WHITE_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\CheckCodeIntegrity_Epilog.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\CheckCodeIntegrity_Prolog.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\CheckProtection_Epilog.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\CheckProtection_Prolog.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\CheckVirtualPC_Epilog.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\CheckVirtualPC_Prolog.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\Clear_End.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\Clear_Start.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\CodeReplace_End.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\CodeReplace_Start.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\Encode_End.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\Encode_Start.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\Mutate_End.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\Mutate_Start.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\Registered_End.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\Registered_Start.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\C\Via ASM module\SecureEngineCustomVmMacros.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Assembly\SecureEngineCustomVMs_fasm32.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Assembly\SecureEngineCustomVMs_fasm64.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Assembly\SecureEngineCustomVMs_masm32.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Assembly\SecureEngineCustomVMs_masm64.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\PowerBasic\SecureEngineCustomVMs32.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\PowerBasic\SecureEngineCustomVMs64.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\C\Via ASM module\SecureEngineMacros.asm">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\SecureEngineSDK64.dll">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\StrEncrypt_End.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\StrEncrypt_Start.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\StrEncryptW_End.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\StrEncryptW_Start.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\PowerBasic\ThemidaSDK.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Assembly\ThemidaSDK_masm.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\Unprotected_End.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\Unprotected_Start.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_DOLPHIN_BLACK_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_DOLPHIN_BLACK_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_DOLPHIN_RED_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_DOLPHIN_RED_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_DOLPHIN_WHITE_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_DOLPHIN_WHITE_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_EAGLE_BLACK_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_EAGLE_BLACK_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_EAGLE_RED_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_EAGLE_RED_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_EAGLE_WHITE_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_EAGLE_WHITE_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_End.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_FISH_BLACK_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_FISH_BLACK_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_FISH_RED_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_FISH_RED_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_FISH_WHITE_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_FISH_WHITE_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_MUTATE_ONLY_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_MUTATE_ONLY_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_PUMA_BLACK_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_PUMA_BLACK_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_PUMA_RED_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_PUMA_RED_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_PUMA_WHITE_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_PUMA_WHITE_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_SHARK_BLACK_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_SHARK_BLACK_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_SHARK_RED_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_SHARK_RED_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_SHARK_WHITE_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_SHARK_WHITE_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_Start.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_Start_WithLevel.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_TIGER_BLACK_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_TIGER_BLACK_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_TIGER_RED_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_TIGER_RED_START.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+    <None Include="ThemidaSDK\Include\Delphi\VM_TIGER_WHITE_END.inc">
+      <Filter>zion sucks cock</Filter>
+    </None>
+  </ItemGroup>
+</Project>
